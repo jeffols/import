@@ -92,7 +92,7 @@ Create Table data AS
 CREATE TABLE lookup AS
   SELECT  *
   FROM  read_csv(
-          'hts_lookup.csv',
+          'static/hts_lookup.csv',
           delim = ',',
           header = false,
           columns = {
